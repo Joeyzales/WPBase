@@ -44,8 +44,8 @@ body {
 .title {
     color: yellow; 
     position: absolute; 
-    top: 358px; 
-    left: 275px;
+    top: 325px; 
+    left: 200px;
 }
 
 .menu {
@@ -54,4 +54,7 @@ body {
     left: 75px;
 }
 
-.header { position: relative; }
+.header { 
+    position: relative; 
+
+}
