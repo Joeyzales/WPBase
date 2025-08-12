@@ -3,18 +3,49 @@
         <title>WeekendPicture - Who</title>
         <link rel="stylesheet" href="~/../../obj/css/bootstrap-4.4.1/bootstrap.css" />
         <link rel="stylesheet" href="~/../../obj/css/bootstrap-4.4.1/bootstrap-grid.css" />
+        <link rel="stylesheet" href="../obj/css/menumain.css" />
         <style type="text/css">
             body {
                 background-color: black;
                 color: white;
             }
+            .dropbtn {
+                background-color: black;
+            }
         </style>
+        <!--<script type="text/javascript"></script>-->
     </head>
     <body>
+        <br />
         <div class="container">
             <header>
                 <h1>Who Am I?</h1>
             </header>
+            <br />
+            <div class="row">
+                <div class="col-md-8">&nbsp;</div>
+                <div class="col-md-4">
+                    <div class="menu">
+                        <div class="dropdown col-sm-3">
+                            <button class="dropbtn" onclick="window.location.href='http://weekendpictures.com'">Home</button>
+                        </div>
+                        <div class="dropdown col-sm-3">
+                            <button class="dropbtn">About</button>
+                            <div class="dropdown-content">
+                                <a href="~/../view/whoami.html">Who?</a>
+                                <a href="~/../view/whywp.html">Why?</a>
+                                <a href="#">What?</a>
+                            </div>
+                        </div>
+                        <div class="dropdown col-sm-3">
+                            <button class="dropbtn">Apps</button>
+                            <div class="dropdown-content">
+                                <a href="#">Delivery Driver Calculator</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <br />
             <div class="row">
                 <div class="col-md-4">
