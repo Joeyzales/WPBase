@@ -33,3 +33,8 @@
 .dropdown:hover .dropdown-content { display: block; }
 
 .dropdown:hover .dropbtn { background-color: #21487F;}
+
+.menu {
+    position: relative; 
+    z-index: 9999;
+}
